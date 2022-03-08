@@ -59,3 +59,7 @@ nav ul li a{
 #shoe3{
   background-color: yellow;
 }
+
+#shoe3 .overlay h2{
+  color: green;
+}
