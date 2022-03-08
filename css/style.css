@@ -8,25 +8,22 @@ body{
   font-family: Arial, Helvetica, sans-serif;
 }
 
+
+/* HEADER */
 header{
   position: fixed;
-  height: 50px;
+  height: 70px;
   width: 100%;
-  background-color: brown;
   text-align: right;
 }
 
-.box-shoe{
-  height: 100vh;
-  width: 100%;
-  background-color: red;
-}
-
+/* NAVBAR INSIDE HEADER */
 nav ul li{
   list-style: none;
   display: inline-block;
-  line-height: 50px;
-  margin-right: 50px;
+  line-height: 70px;
+  margin-right: 20px;
+  margin-top: 20px;
   
 }
 
@@ -38,31 +35,49 @@ nav ul li a{
   border-radius: 50%;
 }
 
-
-.overlay{
-  position:relative;
-  height: 100%;
+nav ul li a:active{
+  background-color: red;
 }
 
-.shoe-product{
+/* /NAVBAR INSIDE HEADER */
+
+/* MAIN */
+
+/* Section with dimensions equal to the viewport */
+.box-shoe{
+  height: 100vh;
+  width: 100%;
+  background-color: red;
+}
+
+.overlay{
+  position: relative;
+  height:100%;
+
+}
+
+.overlay .shoe-info{
   position: absolute;
+  width:100%;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
-.overlay h2{
+.overlay .shoe-info h2{
   color: yellow;
   font-size: 68px;
   text-transform: uppercase;
   text-align: center;
 }
-
+.overlay .shoe-info img{
+  width: 100%;
+  height: auto;
+}
 
 #shoe2{
   background-color: green;
 }
-
 #shoe3{
   background-color: yellow;
 }
