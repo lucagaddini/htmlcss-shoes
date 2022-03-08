@@ -53,12 +53,12 @@ nav ul li a:active{
 .overlay{
   position: relative;
   height:100%;
-
 }
 
+/* Section with dimensions 1/2 to the viewport, centered */
 .overlay .shoe-info{
   position: absolute;
-  width:100%;
+  width:50%;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -66,13 +66,15 @@ nav ul li a:active{
 
 .overlay .shoe-info h2{
   color: yellow;
-  font-size: 68px;
+  font-size: 70px;
   text-transform: uppercase;
   text-align: center;
 }
 .overlay .shoe-info img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   width: 100%;
-  height: auto;
 }
 
 #shoe2{
