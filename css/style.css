@@ -33,11 +33,11 @@ nav ul li{
 nav ul li a{
   display: inline-block;
   text-decoration: none;
-  line-height: 70px;
   text-align: center;
   color: black;
   background-color: white;
   width: 70px;
+  height: 70px;
   border-radius: 50%;
 }
 
