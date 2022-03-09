@@ -75,9 +75,10 @@ nav ul li a:active{
   transform: translate(-50%, -50%);
 }
 
+/* Section with font size 3vh to the viewport */
 .overlay .shoe-info h2{
   color: yellow;
-  font-size: 70px;
+  font-size: 3vw;
   text-transform: uppercase;
   text-align: center;
 }
